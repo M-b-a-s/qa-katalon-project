@@ -1,0 +1,31 @@
+2025-10-02 03:32:21.381 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/ExploreCURA
+2025-10-02 03:32:21.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ifechimenim Ikwukala-Mbas
+2025-10-02 03:32:21.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = qa-katalon-project
+2025-10-02 03:32:21.901 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - DESKTOP-3K0QPKE.mshome.net
+2025-10-02 03:32:21.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-10-02 03:32:21.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.137.1
+2025-10-02 03:32:21.906 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.2.0
+Test Suites/ExploreCURA
+2025-10-02 03:32:23.331 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-02 03:32:23.681 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 02, 2025 3:32:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-02 03:32:31.460 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f4c92a04635d24cd578514a0ce02bb50
+2025-10-02 03:32:31.485 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.208
+2025-10-02 03:32:31.490 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-02 03:32:31.498 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-02 03:32:31.544 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-02 03:32:39.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-02 03:32:39.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Navigation
+Test Cases/Navigation
+[:]
+2025-10-02 03:32:39.644 DEBUG testcase.Navigation                      - 1: verifyMatch(getWindowTitle(), "CURA Healthcare Service", false)
+2025-10-02 03:32:39.934 DEBUG testcase.Navigation                      - 2: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle"))
+2025-10-02 03:32:42.619 DEBUG testcase.Navigation                      - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/LoginBtn"))
+Test Cases/Navigation
+PASSED
+2025-10-02 03:32:47.151 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Navigation
+Test Suites/ExploreCURA
+2025-10-02 03:32:48.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-02 03:32:48.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/ExploreCURA
+2025-10-02 03:32:48.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
